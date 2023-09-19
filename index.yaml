@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  mlflow:
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2023-09-19T17:12:44.127729021+02:00"
+    description: Simple deployment chart for MLflow
+    digest: 7597f34ac8c7fa040d5507dc02cc708366ac7b882bc942756514060313ae5a3f
+    name: mlflow
+    sources:
+    - https://github.com/mondata-dev/mlflow-helm
+    type: application
+    urls:
+    - mlflow/mlflow-0.2.1.tgz
+    version: 0.2.1
+generated: "2023-09-19T17:12:44.126421052+02:00"
