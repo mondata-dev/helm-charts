@@ -3,7 +3,19 @@ entries:
   mlflow:
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2023-09-19T16:36:58.703354744Z"
+    created: "2023-09-20T11:18:15.417644234Z"
+    description: Simple deployment chart for MLflow
+    digest: 012337716cad4064ab4aac202a1e5f2d21254f129da975f662725858216eeba3
+    name: mlflow
+    sources:
+    - https://github.com/mondata-dev/mlflow-helm
+    type: application
+    urls:
+    - mlflow/mlflow-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2023-09-20T11:18:15.416430819Z"
     description: Simple deployment chart for MLflow
     digest: bdf4f7cf42468354c4f346c01d81fbec2ecbbae09ada502d61c3e66d66da343a
     name: mlflow
@@ -15,7 +27,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2023-09-19T16:36:58.702094897Z"
+    created: "2023-09-20T11:18:15.415148268Z"
     description: Simple deployment chart for MLflow
     digest: 7597f34ac8c7fa040d5507dc02cc708366ac7b882bc942756514060313ae5a3f
     name: mlflow
@@ -25,4 +37,4 @@ entries:
     urls:
     - mlflow/mlflow-0.2.1.tgz
     version: 0.2.1
-generated: "2023-09-19T16:36:58.698906173Z"
+generated: "2023-09-20T11:18:15.413889852Z"
